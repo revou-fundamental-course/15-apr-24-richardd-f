@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degree Conversion</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1 class="title">Degree Conversion</h1>
+        <!-- <h2 class="title credit">by Felix Richardo</h2> -->
+    </header>
+    <main>
+        <!-- <p>Masukan suhu derajat Celsius (°C) ke kotak dibawah, lalu klik tombol calculate untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F)</p> -->
+        <section >
+            <p>Celcius (°C)</p>
+            <input id="inputC" class="input" type="number" placeholder="Enter the celcius value here">
+        </section>
+        <section >
+            <p>Fahrenheit (°F)</p>
+            <input id="inputF" class="input" type="number" readonly placeholder="The conversion result will appear here">
+        </section>
+        <section>
+            <div></div>
+            <div class="btn-container">
+                <button onclick="calculate()">Calculate</button>
+                <button onclick="reset()">Reset</button>
+                <button onclick="reverse()">Reverse</button>
+            </div>
+        </section>
+        <section >
+            <p>Calculation</p>
+            <input id="step" class="input" type="text" readonly placeholder="The calculation will appear here">
+        </section>
+    </main>
+    <script src="javascript/script.js"></script>
+</body>
+</html>

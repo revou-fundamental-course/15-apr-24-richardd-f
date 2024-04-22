@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    /* background: rgb(0, 247, 255); */
+}
+.title{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title.credit{
+    margin-top: 0.2rem;
+}
+body > header{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+body > main{
+    width: 55vw;
+    margin: auto;
+    border: solid blue 0.2rem;
+    background: #ffe8d2;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+main p{
+    margin: 0;
+    font-size: 1.7rem;
+}
+main > p{
+    margin-bottom: 1rem;
+}
+main section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.9rem auto;
+    width: 700px;
+}
+
+.input{
+    background: #00f7ff;
+    border: solid rgb(0, 21, 255) 0.2rem;
+    padding: 0.3rem 1rem;
+    font-size: 1.6rem;
+    font-family:'Times New Roman', Times, serif ;
+    border-radius: 3rem;
+    width: 27rem;
+    transition: 0.2s;
+}
+.input:hover{
+    background: #7dfbff;
+    transform: scale(1.01);
+}
+
+.btn-container button{
+    background: #00f7ff;
+    border: solid rgb(0, 21, 255) 0.2rem;
+    border-radius: 3rem;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+button:hover{
+    background: #7dfbff;
+    transform: scale(1.02);
+}
+button:active{
+    transform:scale(0.97);
+}
+#inputF{
+    border: solid red 0.2rem;
+}
+#step{
+    border:solid black 0.2rem;
+    background: none;
+}
+#step:hover{
+    transform:none;
+}
